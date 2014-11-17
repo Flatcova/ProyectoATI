@@ -11,6 +11,9 @@ body{
 .carousel{
 	background-color: transparent;
 }
+.carousel img{
+	margin-left: 280px;
+}
 #right img{
 	width:150px;
 	height:100px;
@@ -24,31 +27,33 @@ body{
 	background-color: transparent;
 	border: none;
 	width: auto;
-	height: 70px;
-	padding-left: 300px;
-	padding-top: 15px;
+	height: 75px;
+	margin-left: 400px;
+	margin-top: 25px;
 }
 
 #navbar {
 	position: relative;
-	top:10px;
+	top:-60px;
 	left:55%;
-	margin-left:-200px;
+	margin-left:-300px;
+	background-color: transparent;
 }
 #navbar ul{
 	list-style-type: none;
 	position: relative;
 	margin: -10px;
+	background-color: transparent;
 }
 
 #navbar li {
 	display: inline-block;
-	border: 2px solid #000000;
+	border: 2px solid white;
 	font-family: Tahoma, sans-serif;
-	color: #ffffff;
+	color: white;
 	padding: 20px;
 	border-radius: 10px 10px;
-	background-color: grey;
+	background-color:transparent;
 }
 p {
 	font-family: Tahoma;
@@ -66,32 +71,5 @@ p {
 	width: 100%;
 	bottom: 0;
 	position: fixed;
-	color:#fff;
-}
-
-#button{
-	border: 2px solid #000000;
-	float:left;
-	position: relative;
-	left: 229px;
-	bottom: -20px;
-	border-radius: 5px;
-	background-color: grey;
-	height: 45px;
-	width: 160px;
-}
-
-#button p{
-	position: relative;
-	bottom: 10px;
-	font-size: 0.8em;
-	color: white;
-	text-align: center;
-}
-.bold{
-	font-family: tahoma;
-	font-weight: bold;
-	font-size: 1.2em;
-	font-variant: small-caps;
-	color: white;
+	color:#4A99ED;
 }
