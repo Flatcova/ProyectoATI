@@ -35,6 +35,10 @@ body{
 	margin-left: 10px;
 	color: white;
 }
+#texto img{
+	width: auto;
+	height: 250px;
+}
 #right img{
 	width:150px;
 	height:100px;
