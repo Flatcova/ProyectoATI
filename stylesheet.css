@@ -38,6 +38,7 @@ body{
 #texto img{
 	width: auto;
 	height: 250px;
+	margin-left: 250px;
 }
 #right img{
 	width:150px;
