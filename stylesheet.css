@@ -50,12 +50,8 @@ body{
 	background-color: #4A99ED;
 }
 #logo{
-	background-color: transparent;
-	border: none;
 	width: auto;
-	height: 75px;
-	margin-left: 230px;
-	margin-top:25px;
+	height: 45px;
 }
 
 #navbar {
