@@ -73,9 +73,9 @@ body{
 }
 #navbar li {
 	display: inline-block;
-	border: 2px solid white;
+	border: 2px solid red;
 	font-family: Tahoma, sans-serif;
-	color: white;
+	color: red;
 	padding: 20px;
 	border-radius: 10px 10px;
 	background-color:transparent;
