@@ -26,19 +26,21 @@ layout: default
 		</div>
 		<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
       		<a href="#fixed-tab-1" class="mdl-layout__tab">Inicio</a>
-      		<a href="#fixed-tab-2" class="mdl-layout__tab is-active">Personajes Historicos</a>
+      		<!-- <a href="#fixed-tab-2" class="mdl-layout__tab is-active">Personajes Historicos</a>
       		<a href="#fixed-tab-3" class="mdl-layout__tab">Historia</a>
       		<a href="#fixed-tab-4" class="mdl-layout__tab">Presentacion</a>
-      		<a href="#fixed-tab-5" class="mdl-layout__tab">Ejemplos</a>
+      		<a href="#fixed-tab-5" class="mdl-layout__tab">Ejemplos</a> -->
       		<a href="#fixed-tab-6" class="mdl-layout__tab">Descargas</a>
     	</div>
 	</header>
 	<main class="mdl-layout__content">
 		<a name="top"></a>
-		<section class="mdl-layout__tab-panel" id="fixed-tab-1">
-      		<div class="page-content">{{content}}</div>
+		<!-- <section class="mdl-layout__tab-panel" id="fixed-tab-1">
+      		<div class="page-content"> -->{{content}}<!-- </div>
+    	</section> -->
+    	<!-- <section class="mdl-layout__tab-panel is-active" id="fixed-tab-2">
+      		<div class="page-content"></div>
     	</section>
-      	{{include personajes.html}}
     	<section class="mdl-layout__tab-panel" id="fixed-tab-3">
       		<div class="page-content">{{include historia.html}}</div>
     	</section>
@@ -46,10 +48,12 @@ layout: default
       		<div class="page-content">{{include Presentacion.pdf}}</div>
     	</section>
     	<section class="mdl-layout__tab-panel" id="fixed-tab-5">
-      		<div class="page-content">{{include ejemplos.pdf}}</div>
-    	</section>
-    	<section class="mdl-layout__tab-panel" id="fixed-tab-6">
-      		<div class="page-content">{{include descargas.html}}</div>
-    	</section>
+      		<div class="page-content">
+      			<spam target="_blank" href="{{site.baseurl}}/ejemplos.pdf"></spam>
+      		</div>
+    	</section> -->
+    	<!-- <section class="mdl-layout__tab-panel" id="fixed-tab-6">
+      		<div class="page-content">{{ descargas.html}}</div>
+    	</section> -->
 	</main>
 </div>
