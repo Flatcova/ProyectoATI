@@ -58,6 +58,12 @@
 	#slide3 {
 		background: url("./img/TalesDeMileto.png") center no-repeat;
 	}
+	.carousel-caption{
+		font-size: 20px;
+	}
+	.carousel-caption h3{
+		font-size: 35px;
+	}
 }
 
 /*end of carousel*/
