@@ -1,31 +1,15 @@
 .mdl-layout--fixed-header{
-	 background: url("../img/MilkyWay.jpg") no-repeat center/cover ; 
+	 background: url("./img/MilkyWay.jpg") no-repeat center/cover ; 
 }
-body{
-	background-color: transparent;
-}
+
 .carousel{
 	background-color: transparent;
 }
 .carousel img{
-	margin-left: 420px;
-	max-width: 900px;
-	max-height: 500px;
-}
-.carousel-inner .item .tales img{
-	margin-left: 200px;
-}
-.carousel-inner .item .einstein img{
-	margin-left: 230px;
-}
-.carousel-inner .item .everyone img{
-	margin-left: 300px;
-}
-.carousel-inner .item .presentacion img{
-	margin-left: 230px;
-}
-.carousel-inner .item .ejemplos img{
-	margin-left: 230px;
+	min-width: 300px;
+	min-height: 300px;
+	max-width: 1200px;
+	max-height: 481px;
 }
 #texto{
 	margin-left: 10px;
