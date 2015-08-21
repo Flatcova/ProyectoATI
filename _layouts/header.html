@@ -1,68 +1,17 @@
 ---
 layout: default
 ---
-<!-- 
-<a href="{{site.baseurl}}"><img id="logo" src="{{site.baseurl}}/img/atom.png"/></a>
-  <div id="navbar">
-        <ul>
-            <a href="{{site.baseurl}}"><li>Inicio</li></a>
-            <a href="personajes.html"><li>Personajes Historicos</li></a>
-            <a href="historia.html"><li>Historia</li></a>
-            <a target="_blank" href="Presentacion.pdf"><li>Presentacion</li></a>
-            <a target="_blank" href="ejemplos.pdf"><li>Ejemplos</li></a>
-            <a href="descargas.html"><li>Descargas</li></a>
-        </ul>
-</div>
--->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 	<header class="mdl-layout__header">
 		<div class="mdl-layout__header-row">
-			<a class="mdl-navigation__link" href="{{site.baseurl}}">
-				<span class="mdl-layout-title">
-					<img id="logo" src="{{site.baseurl}}/img/atom.png">
-					Historia fisica
-				</span>
-			</a>
+			<!-- Title -->
+			<span class="mdl-layout-title">Historia de la fisica</span>
 		</div>
-		
-		<div class="mdl-layout__tab-bar mdl-js-ripple-effect">
-	      	<a href="#fixed-tab-1" class="mdl-layout__tab is-active">Inicio</a>
-	      	<a href="#fixed-tab-2" class="mdl-layout__tab">Personajes Historicos</a>
-	      	<a href="#fixed-tab-3" class="mdl-layout__tab">Historia</a>
-	      	<a href="#fixed-tab-4" class="mdl-layout__tab">Presentacion</a>
-	      	<a href="#fixed-tab-5" class="mdl-layout__tab">Ejemplos</a>
-      		<a href="#fixed-tab-6" class="mdl-layout__tab">Descargas</a>
-    	</div>
-    	
 	</header>
+	{% include nav.html%}
 	<main class="mdl-layout__content">
 		<a name="top"></a>
 		{{content}}
-    	<section class="mdl-layout__tab-panel" id="fixed-tab-2">
-      		<div class="page-content"></div>
-    	</section>
-    	<section class="mdl-layout__tab-panel" id="fixed-tab-3">
-      		<div class="page-content">{{include historia.html}}</div>
-    	</section>
-    	<section class="mdl-layout__tab-panel" id="fixed-tab-4">
-      		<div class="page-content">{{include Presentacion.pdf}}</div>
-    	</section>
-    	<section class="mdl-layout__tab-panel" id="fixed-tab-5">
-      		<div class="page-content">
-      			<spam target="_blank" href="{{site.baseurl}}/ejemplos.pdf"></spam>
-      		</div>
-    	</section>
-    	<section class="mdl-layout__tab-panel" id="fixed-tab-6">
-            <div class="page-content">
-    			<div id="imagendescarga">
-        			<img src="{{site.baseurl}}/img/sheet1.png"/><img src="{{site.baseurl}}/img/sheet2.png"/><img src="{{site.baseurl}}/img/sheet3.png"/>
-        			<h3><a href="ATIEXCEL.xlsx"><br>Download Here</br></a></h3>
-        			<img src="{{site.baseurl}}/img/presentacion1.png"/><img src="{{site.baseurl}}/img/presentacion2.png"/><img src="{{site.baseurl}}/img/presentacion3.png"/>
-        			<h3><a href="Presentacion.zip"><br>Download Here</br></a></h3>
-        			<img src="{{site.baseurl}}/img/doc1.png"/><img src="{{site.baseurl}}/img/doc2.png"/><img src="{{site.baseurl}}/img/doc3.png"/>
-        			<h3><a href="Historiadelafisica.docx"><br>Download Here</br></a></h3>
-    			</div>
-			</div>
-		</section>
+		{% include footer.html%}
 	</main>
 </div>
