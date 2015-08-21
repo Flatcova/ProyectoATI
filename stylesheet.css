@@ -4,22 +4,19 @@
 /* --------------------------
 		Navigation
 ----------------------------- */
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1200px){
 .mdl-layout__tab-bar {
     width: calc(100% - 56px);
     padding: 0 0 0 56px;
 	}
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 768px){
 	.mdl-layout__tab-bar {
     width: calc(100%);
     padding: 0 0 0 0;
 	}
 }
 /*Carousel*/
-.carousel{
-	background-color: grey;
-}
 #myCarousel .item {height: 450px;}
 
 #slide1 {
