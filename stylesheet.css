@@ -1,8 +1,8 @@
 .mdl-layout--fixed-header{
 	 background: url("./img/MilkyWay.jpg") no-repeat center/cover ; 
 }
-
-.carousel{
+/*Carousel*/
+/*.carousel{
 	background-color: transparent;
 }
 .carousel img{
@@ -10,7 +10,57 @@
 	min-height: 500px;
 	max-width: 1200px;
 	max-height: 481px;
+}*/
+#myCarousel .item {height: 480px;}
+
+#slide1 {
+	background: url("./img/foto1.png") center no-repeat;
 }
+#slide2 {
+	background: url("./img/Albert-Einstein-genius.jpg") center no-repeat;
+}
+#slide3 {
+	background: url("./img/TalesDeMileto.png") center no-repeat;
+}
+/* ------------------------
+		Media Queries
+	------------------------ */
+/*portrait & landscape phone*/
+@media (max-width: 480px){
+
+}
+
+/*landscape phone to portrait tablet*/
+@media (max-width: 768px){
+	#myCarousel .item {height: 310px;}
+
+	#slide1 {
+		background: url("./img/foto1.png") center no-repeat;
+	}
+	#slide2 {
+		background: url("./img/Albert-Einstein-genius.jpg") center no-repeat;
+	}
+	#slide3 {
+		background: url("./img/TalesDeMileto.png") center no-repeat;
+	}
+}
+
+/*large desktop*/
+@media (max-width: 1200px){
+	#myCarousel .item {height: 580px;}
+
+	#slide1 {
+		background: url("./img/foto1.png") center no-repeat;
+	}
+	#slide2 {
+		background: url("./img/Albert-Einstein-genius.jpg") center no-repeat;
+	}
+	#slide3 {
+		background: url("./img/TalesDeMileto.png") center no-repeat;
+	}
+}
+
+/*end of carousel*/
 #texto{
 	margin-left: 10px;
 	color: white;

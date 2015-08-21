@@ -2,92 +2,90 @@
 layout: header
 ---
 <section class="mdl-layout__tab-panel is-active" id="fixed-tab-1">
-          <div class="page-content">
+  <div class="page-content">
+    
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
-    <li data-target="#myCarousel" data-slide-to="5"></li>
-    <li data-target="#myCarousel" data-slide-to="6"></li>
-  </ol>
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <!-- <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+        <li data-target="#myCarousel" data-slide-to="5"></li>
+        <li data-target="#myCarousel" data-slide-to="6"></li> -->
+      </ol>
 
-  
-  <div class="carousel-inner" role="listbox">
-    
-    <div class="item active">
-      <a href="historia.html"><img src="{{site.baseurl}}/img/foto1.png" alt="Everyone" class="img-responsive"></a>
-        <div class="carousel-caption">
-          <h3>Todos los grandes de la fisica</h3>
-          <p>y con ellos sus grandes inicios</p>
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner" role="listbox">
+
+        <div class="item active" id="slide1">
+            <div class="carousel-caption">
+              <h3>Todos los grandes de la fisica</h3>
+              <p>y con ellos sus grandes inicios</p>
+            </div>
         </div>
-    </div>
-    
-    <div class="item">
-      <div class="einstein">
-      <a href="personajes.html"><img src="{{site.baseurl}}/img/Albert-Einstein-genius.jpg" alt="Einstein"></a>
-        <div class="carousel-caption">
-          <h3>Albert Einstein</h3>
-          <p>El gran descubrimiento de la ley de la relatividad</p>
-        </div></div>
-    </div>
-    
-    <div class="item">
-      <div class="tales">
-      <a href="personajes.html"><img src="{{site.baseurl}}/img/TalesDeMileto.png" alt="TalesdeMileto"></a>
-        <div class="carousel-caption">
-          <h3>Tales de Mileto</h3>
-          <p>Los ángulos de la base de un triángulo isósceles son iguales.</p>
-        </div></div>
-    </div>
-    
-    <div class="item">
-      <a href="personajes.html"><img src="{{site.baseurl}}/img/foto2.png" alt="NicolasCopernico"></a>
-        <div class="carousel-caption">
-          <h3>Nicolas Copernico</h3>
-          <p>llego a dar la teoría de que los planetas giran al rededor del sol y no de la tierra</p>
+        
+        <div class="item"  id="slide2">
+            <div class="carousel-caption">
+              <h3>Albert Einstein</h3>
+              <p>El gran descubrimiento de la ley de la relatividad</p>
+            </div>
         </div>
-    </div>
-    
-    <div class="item">
-      <a href="personajes.html"><img src="{{site.baseurl}}/img/foto3.png" alt="GalileoGalilei"></a>
-        <div class="carousel-caption">
-          <h3>Galileo Galilei</h3>
-          <p>El gran cientifico que invento el telescopio, descubrio montañas en la luna y mucho mas</p>
+        
+        <div class="item"  id="slide3">
+            <div class="carousel-caption">
+              <h3>Tales de Mileto</h3>
+              <p>Los ángulos de la base de un triángulo isósceles son iguales.</p>
+            </div>
         </div>
-    </div>
-    
-    <div class="item">
-      <div class="presentacion">
-      <a target="_blank" href="Presentacion.pdf"><img src="{{site.baseurl}}/img/presentacion2.png" alt="Presentacion" class="img-responsive"></a>
-        <div class="carousel-caption">
-          <h3>Mira nuesta presentacion y sorprendete</h3>
-          <p></p>
-        </div></div>
-    </div>
-    
-    <div class="item">
-      <div class="ejemplos">
-      <a target="_blank" href="ejemplos.pdf"><img src="{{site.baseurl}}/img/sheet2.png" alt="Ejemplos"></a>
-        <div class="carousel-caption">
-          <h3>Mira nuestros Ejemplos</h3>
-          <p>trata de igualarlos</p>
+        
+        <!-- <div class="item">
+          <a href="personajes.html"><img src="{{site.baseurl}}/img/foto2.png" alt="NicolasCopernico"></a>
+            <div class="carousel-caption">
+              <h3>Nicolas Copernico</h3>
+              <p>llego a dar la teoría de que los planetas giran al rededor del sol y no de la tierra</p>
+            </div>
         </div>
+        
+        <div class="item">
+          <a href="personajes.html"><img src="{{site.baseurl}}/img/foto3.png" alt="GalileoGalilei"></a>
+            <div class="carousel-caption">
+              <h3>Galileo Galilei</h3>
+              <p>El gran cientifico que invento el telescopio, descubrio montañas en la luna y mucho mas</p>
+            </div>
+        </div>
+        
+        <div class="item">
+          <div class="presentacion">
+          <a target="_blank" href="Presentacion.pdf"><img src="{{site.baseurl}}/img/presentacion2.png" alt="Presentacion" class="img-responsive"></a>
+            <div class="carousel-caption">
+              <h3>Mira nuesta presentacion y sorprendete</h3>
+              <p></p>
+            </div></div>
+        </div>
+        
+        <div class="item">
+          <div class="ejemplos">
+          <a target="_blank" href="ejemplos.pdf"><img src="{{site.baseurl}}/img/sheet2.png" alt="Ejemplos"></a>
+            <div class="carousel-caption">
+              <h3>Mira nuestros Ejemplos</h3>
+              <p>trata de igualarlos</p>
+            </div>
+          </div>
+        </div> -->
+
       </div>
-    </div>
-  </div>
 
-  
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-  </a>
-</div> 
-</div>
-      </section>
+      <!-- Controls -->
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+
+    </div> 
+  </div>
+</section>
