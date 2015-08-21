@@ -6,8 +6,8 @@
 	background-color: transparent;
 }
 .carousel img{
-	min-width: 300px;
-	min-height: 300px;
+	min-width: 440px;
+	min-height: 500px;
 	max-width: 1200px;
 	max-height: 481px;
 }
