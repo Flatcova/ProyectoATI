@@ -11,7 +11,7 @@
 	max-width: 1200px;
 	max-height: 481px;
 }*/
-#myCarousel .item {height: 480px;}
+#myCarousel .item {height: 450px;}
 
 #slide1 {
 	background: url("./img/foto1.png") center no-repeat;
@@ -27,11 +27,6 @@
 	------------------------ */
 /*portrait & landscape phone*/
 @media (max-width: 480px){
-
-}
-
-/*landscape phone to portrait tablet*/
-@media (max-width: 768px){
 	#myCarousel .item {height: 310px;}
 
 	#slide1 {
@@ -43,6 +38,11 @@
 	#slide3 {
 		background: url("./img/TalesDeMileto.png") center no-repeat;
 	}
+}
+
+/*landscape phone to portrait tablet*/
+@media (max-width: 768px){
+	
 }
 
 /*large desktop*/
