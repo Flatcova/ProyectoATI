@@ -1,6 +1,21 @@
 .mdl-layout--fixed-header{
 	 background: url("./img/MilkyWay.jpg") no-repeat center/cover ; 
 }
+/* --------------------------
+		Navigation
+----------------------------- */
+@media screen and (min-width: 1024px){
+.mdl-layout__tab-bar {
+    width: calc(100% - 56px);
+    padding: 0 0 0 56px;
+	}
+}
+@media screen and (max-width: 480px){
+	.mdl-layout__tab-bar {
+    width: calc(100%);
+    padding: 0 0 0 0;
+	}
+}
 /*Carousel*/
 .carousel{
 	background-color: grey;
