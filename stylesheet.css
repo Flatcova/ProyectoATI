@@ -30,7 +30,7 @@
 /* --------------------------
 		Carousel
 ----------------------------- */
-#myCarousel .item {height: 500px;}
+#myCarousel .item {height: 520px;}
 
 #slide1 {
 	background: url("./img/foto1.jpg");
