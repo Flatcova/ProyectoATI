@@ -92,6 +92,22 @@
 /*end of carousel*/
 
 /*-----------------------
+	Card en historia
+-----------------------*/
+
+#historia > .mdl-card__title{
+	background: url('./img/carousel/car1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 300px;
+}
+#historia > .mdl-card__title-text{
+	color: white;
+}
+
+
+/*-----------------------
 	Cards on personajes
 -----------------------*/
 .mdl-card__supporting-text{
