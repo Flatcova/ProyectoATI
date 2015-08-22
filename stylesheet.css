@@ -102,7 +102,7 @@
 	background-size: cover;
 	height: 300px;
 }
-#historia > .mdl-card__title-text{
+.mdl-card__title-text{
 	color: white;
 }
 
